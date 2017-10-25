@@ -16,7 +16,7 @@ final class AccountRepository: AccountRepositoryProtocol {
     let ipagooService: IpagooService
     
     init(ipagooService: IpagooService) {
-        self.ipagooService
+        self.ipagooService = ipagooService
     }
     
     func accounts() -> Observable<[Account]> {

@@ -5,14 +5,11 @@ import PlaygroundSupport
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-let cell = AccountCell.instantiate()
-cell.backgroundColor = .white
-let presenter = AccountCellPresenter()
+let service = IpagooService()
+let repository = AccountRepository(ipagooService: service)
+let vc = AccountListViewController(presenter: AccountListPresenter(repository: repository), cellPresenter: AccountCellPresenter())
+vc.view.frame = CGRect(x: 0, y: 0, width: 475, height: 667)
 
-let account = Account(identifier: 1, name: "My Spanish account", iban: "ES4067060001870000000099", countryCode: .ES, currencyCode: .EUR, currentBalance: 1500, availableBalance: 1500, status: .active, hasCard: true)
-
-presenter.present(account: account, in: cell)
-
-PlaygroundPage.current.liveView = cell
+PlaygroundPage.current.liveView = vc
 
 
