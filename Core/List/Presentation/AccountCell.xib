@@ -19,7 +19,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="337" height="192.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YX0-OL-g8b">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YX0-OL-g8b">
                         <rect key="frame" x="0.0" y="0.0" width="337" height="192.5"/>
                     </imageView>
                     <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradientA" translatesAutoresizingMaskIntoConstraints="NO" id="WEi-0X-UgM" userLabel="GradientView">
