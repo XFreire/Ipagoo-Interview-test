@@ -15,6 +15,8 @@
 		AC21CEF21FA10DCA00189EC9 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEEE1FA10DCA00189EC9 /* UITableView+Reusable.swift */; };
 		AC21CEF31FA10DCA00189EC9 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEEF1FA10DCA00189EC9 /* ReusableView.swift */; };
 		AC21CEF61FA1105D00189EC9 /* Core.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC21CEF51FA1105C00189EC9 /* Core.xcassets */; };
+		AC21CEFA1FA1118100189EC9 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEF81FA1118100189EC9 /* AccountCell.swift */; };
+		AC21CEFB1FA1118100189EC9 /* AccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC21CEF91FA1118100189EC9 /* AccountCell.xib */; };
 		AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */; };
 		AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B91FA0AE6600AA88DD /* ViewController.swift */; };
 		AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */; };
@@ -66,6 +68,7 @@
 		AC4D44E31FA0FEA1001002E3 /* 35.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CF1FA0FEA1001002E3 /* 35.json */; };
 		AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44D01FA0FEA1001002E3 /* 6.json */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
+		ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +125,8 @@
 		AC21CEEE1FA10DCA00189EC9 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
 		AC21CEEF1FA10DCA00189EC9 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		AC21CEF51FA1105C00189EC9 /* Core.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Core.xcassets; sourceTree = "<group>"; };
+		AC21CEF81FA1118100189EC9 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		AC21CEF91FA1118100189EC9 /* AccountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCell.xib; sourceTree = "<group>"; };
 		AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipagoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC48B8B91FA0AE6600AA88DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -170,7 +175,9 @@
 		AC4D44CF1FA0FEA1001002E3 /* 35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 35.json; sourceTree = "<group>"; };
 		AC4D44D01FA0FEA1001002E3 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
-		ACB8D55B1FA0B647008D2454 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ACB8D55B1FA0B647008D2454 /* IpagooService.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IpagooService.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ACE1D2671FA115BA008ED52A /* List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = List.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCellPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,8 +257,19 @@
 		AC21CEF41FA10E1700189EC9 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				AC21CEF71FA1113500189EC9 /* Presentation */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		AC21CEF71FA1113500189EC9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				AC21CEF81FA1118100189EC9 /* AccountCell.swift */,
+				AC21CEF91FA1118100189EC9 /* AccountCell.xib */,
+				ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		AC48B8AB1FA0AE6600AA88DD = {
@@ -398,7 +416,8 @@
 		ACB8D5581FA0B605008D2454 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				ACB8D55B1FA0B647008D2454 /* MyPlayground.playground */,
+				ACE1D2671FA115BA008ED52A /* List.playground */,
+				ACB8D55B1FA0B647008D2454 /* IpagooService.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
@@ -584,6 +603,7 @@
 				AC4D44D21FA0FEA1001002E3 /* 3.json in Resources */,
 				AC4D44D41FA0FEA1001002E3 /* 26.json in Resources */,
 				AC4D44DD1FA0FEA1001002E3 /* 12.json in Resources */,
+				AC21CEFB1FA1118100189EC9 /* AccountCell.xib in Resources */,
 				AC21CEF61FA1105D00189EC9 /* Core.xcassets in Resources */,
 				AC4D44DB1FA0FEA1001002E3 /* 24.json in Resources */,
 				AC4D44D91FA0FEA1001002E3 /* 1.json in Resources */,
@@ -667,7 +687,9 @@
 				AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
 				AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */,
+				ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */,
 				AC4D44B01FA0F333001002E3 /* Account.swift in Sources */,
+				AC21CEFA1FA1118100189EC9 /* AccountCell.swift in Sources */,
 				AC21CEF11FA10DCA00189EC9 /* UICollectionView+Reusable.swift in Sources */,
 				AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */,
 				AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */,
