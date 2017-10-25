@@ -14,7 +14,7 @@ final class AccountCellPresenter {
         cell.nameLabel.text = account.name.uppercased()
         cell.cityView.image = UIImage(named: account.countryCode.rawValue, in: Bundle(for: type(of: self)), compatibleWith: nil)
         cell.ibanLabel.text = account.iban
-        cell.availableBalanceLabel.text = "\(account.availableBalance) \(account.currencyCode.rawValue)".uppercased()
+        cell.availableBalanceLabel.text = String(format: "%.2f %@", account.availableBalance, account.currencyCode.rawValue).uppercased()
         cell.metadataLabel.text = NSLocalizedString("Available balance", comment: "").uppercased()
         cell.countryLabel.text = account.countryCode.rawValue
     }

@@ -69,6 +69,8 @@
 		AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44D01FA0FEA1001002E3 /* 6.json */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 		ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */; };
+		ACE1D26B1FA11C90008ED52A /* AccountListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D26A1FA11C90008ED52A /* AccountListPresenter.swift */; };
+		ACE1D26E1FA11DA6008ED52A /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,6 +180,8 @@
 		ACB8D55B1FA0B647008D2454 /* IpagooService.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IpagooService.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ACE1D2671FA115BA008ED52A /* List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = List.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCellPresenter.swift; sourceTree = "<group>"; };
+		ACE1D26A1FA11C90008ED52A /* AccountListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListPresenter.swift; sourceTree = "<group>"; };
+		ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +261,7 @@
 		AC21CEF41FA10E1700189EC9 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				ACE1D26C1FA11D80008ED52A /* Repositories */,
 				AC21CEF71FA1113500189EC9 /* Presentation */,
 			);
 			path = List;
@@ -268,6 +273,7 @@
 				AC21CEF81FA1118100189EC9 /* AccountCell.swift */,
 				AC21CEF91FA1118100189EC9 /* AccountCell.xib */,
 				ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */,
+				ACE1D26A1FA11C90008ED52A /* AccountListPresenter.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -420,6 +426,14 @@
 				ACB8D55B1FA0B647008D2454 /* IpagooService.playground */,
 			);
 			path = Playgrounds;
+			sourceTree = "<group>";
+		};
+		ACE1D26C1FA11D80008ED52A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -686,8 +700,10 @@
 				AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */,
 				AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
+				ACE1D26E1FA11DA6008ED52A /* AccountRepository.swift in Sources */,
 				AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */,
 				ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */,
+				ACE1D26B1FA11C90008ED52A /* AccountListPresenter.swift in Sources */,
 				AC4D44B01FA0F333001002E3 /* Account.swift in Sources */,
 				AC21CEFA1FA1118100189EC9 /* AccountCell.swift in Sources */,
 				AC21CEF11FA10DCA00189EC9 /* UICollectionView+Reusable.swift in Sources */,
