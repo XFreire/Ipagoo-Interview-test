@@ -1,0 +1,19 @@
+{
+	"CurrentBalance": 990.2700,
+	"AvailableBalance": 990.2700,
+	"Items": [{
+		"TransactionId": 35,
+		"Date": "2017-05-05T02:01:50.8250247+02:00",
+		"Reference": "MNG232219",
+		"Amount": -9.7300,
+		"CurrencyCode": "GBP",
+		"Status": "Completed",
+		"SenderDisplayName": "John Smith",
+		"SenderInitials": "JS",
+		"SenderAccountNumber": "FR7616933000010000000009543",
+		"ReceiverDisplayName": "Pam Green",
+		"ReceiverInitials": "PG",
+		"ReceiverAccountNumber": "GB29NWBK60161331926819"
+	}],
+	"TotalCount": 1
+}

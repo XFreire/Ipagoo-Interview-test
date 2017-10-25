@@ -1,0 +1,45 @@
+{
+	"CurrentBalance": 934.9300,
+	"AvailableBalance": 765.8900,
+	"Items": [{
+		"TransactionId": 37,
+		"Date": "2017-05-05T02:01:50.8520271+02:00",
+		"Reference": "MNG232219",
+		"Amount": -64.0700,
+		"CurrencyCode": "GBP",
+		"Status": "Completed",
+		"SenderDisplayName": "John Smith",
+		"SenderInitials": "JS",
+		"SenderAccountNumber": "ES2467060001890000000095",
+		"ReceiverDisplayName": "Pam Green",
+		"ReceiverInitials": "PG",
+		"ReceiverAccountNumber": "GB29NWBK60161331926819"
+	}, {
+		"TransactionId": 61,
+		"Date": "2017-05-04T18:22:36.5765358+02:00",
+		"Reference": "ZARA567343211",
+		"Amount": -102.9700,
+		"CurrencyCode": "GBP",
+		"Status": "Pending",
+		"SenderDisplayName": "John Smith",
+		"SenderInitials": "JS",
+		"SenderAccountNumber": "ES2467060001890000000095",
+		"ReceiverDisplayName": "Pam Green",
+		"ReceiverInitials": "PG",
+		"ReceiverAccountNumber": "GB29NWBK60161331926819"
+	}, {
+		"TransactionId": 58,
+		"Date": "2017-05-04T15:49:03.0665159+02:00",
+		"Reference": "MNG232219",
+		"Amount": -64.0700,
+		"CurrencyCode": "GBP",
+		"Status": "Pending",
+		"SenderDisplayName": "John Smith",
+		"SenderInitials": "JS",
+		"SenderAccountNumber": "ES2467060001890000000095",
+		"ReceiverDisplayName": "Pam Green",
+		"ReceiverInitials": "PG",
+		"ReceiverAccountNumber": "GB29NWBK60161331926819"
+	}],
+	"TotalCount": 3
+}

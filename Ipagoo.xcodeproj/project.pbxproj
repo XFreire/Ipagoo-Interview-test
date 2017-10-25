@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC21CEE31FA1013A00189EC9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEE21FA1013A00189EC9 /* Page.swift */; };
+		AC21CEE81FA103F000189EC9 /* AccountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEE71FA103F000189EC9 /* AccountDetail.swift */; };
+		AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEE91FA1043200189EC9 /* Transaction.swift */; };
 		AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */; };
 		AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B91FA0AE6600AA88DD /* ViewController.swift */; };
 		AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */; };
@@ -35,6 +38,28 @@
 		AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B11FA0F40F001002E3 /* CountryCode.swift */; };
 		AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */; };
 		AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B51FA0F64F001002E3 /* Status.swift */; };
+		AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B81FA0FA13001002E3 /* IpagooService.swift */; };
+		AC4D44BB1FA0FA94001002E3 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44BA1FA0FA94001002E3 /* Endpoint.swift */; };
+		AC4D44D11FA0FEA1001002E3 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44BD1FA0FE9F001002E3 /* 2.json */; };
+		AC4D44D21FA0FEA1001002E3 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44BE1FA0FE9F001002E3 /* 3.json */; };
+		AC4D44D31FA0FEA1001002E3 /* 20.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44BF1FA0FE9F001002E3 /* 20.json */; };
+		AC4D44D41FA0FEA1001002E3 /* 26.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C01FA0FEA0001002E3 /* 26.json */; };
+		AC4D44D51FA0FEA1001002E3 /* 22.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C11FA0FEA0001002E3 /* 22.json */; };
+		AC4D44D61FA0FEA1001002E3 /* accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C21FA0FEA0001002E3 /* accounts.json */; };
+		AC4D44D71FA0FEA1001002E3 /* 18.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C31FA0FEA0001002E3 /* 18.json */; };
+		AC4D44D81FA0FEA1001002E3 /* 14.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C41FA0FEA0001002E3 /* 14.json */; };
+		AC4D44D91FA0FEA1001002E3 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C51FA0FEA0001002E3 /* 1.json */; };
+		AC4D44DA1FA0FEA1001002E3 /* 8.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C61FA0FEA0001002E3 /* 8.json */; };
+		AC4D44DB1FA0FEA1001002E3 /* 24.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C71FA0FEA0001002E3 /* 24.json */; };
+		AC4D44DC1FA0FEA1001002E3 /* 10.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C81FA0FEA0001002E3 /* 10.json */; };
+		AC4D44DD1FA0FEA1001002E3 /* 12.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44C91FA0FEA1001002E3 /* 12.json */; };
+		AC4D44DE1FA0FEA1001002E3 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CA1FA0FEA1001002E3 /* 4.json */; };
+		AC4D44DF1FA0FEA1001002E3 /* 16.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CB1FA0FEA1001002E3 /* 16.json */; };
+		AC4D44E01FA0FEA1001002E3 /* 28.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CC1FA0FEA1001002E3 /* 28.json */; };
+		AC4D44E11FA0FEA1001002E3 /* 31.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CD1FA0FEA1001002E3 /* 31.json */; };
+		AC4D44E21FA0FEA1001002E3 /* 33.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CE1FA0FEA1001002E3 /* 33.json */; };
+		AC4D44E31FA0FEA1001002E3 /* 35.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CF1FA0FEA1001002E3 /* 35.json */; };
+		AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44D01FA0FEA1001002E3 /* 6.json */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +109,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AC21CEE21FA1013A00189EC9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		AC21CEE71FA103F000189EC9 /* AccountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetail.swift; sourceTree = "<group>"; };
+		AC21CEE91FA1043200189EC9 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipagoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC48B8B91FA0AE6600AA88DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +137,28 @@
 		AC4D44B11FA0F40F001002E3 /* CountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
 		AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCode.swift; sourceTree = "<group>"; };
 		AC4D44B51FA0F64F001002E3 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		AC4D44B81FA0FA13001002E3 /* IpagooService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpagooService.swift; sourceTree = "<group>"; };
+		AC4D44BA1FA0FA94001002E3 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		AC4D44BD1FA0FE9F001002E3 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		AC4D44BE1FA0FE9F001002E3 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		AC4D44BF1FA0FE9F001002E3 /* 20.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 20.json; sourceTree = "<group>"; };
+		AC4D44C01FA0FEA0001002E3 /* 26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 26.json; sourceTree = "<group>"; };
+		AC4D44C11FA0FEA0001002E3 /* 22.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 22.json; sourceTree = "<group>"; };
+		AC4D44C21FA0FEA0001002E3 /* accounts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = accounts.json; sourceTree = "<group>"; };
+		AC4D44C31FA0FEA0001002E3 /* 18.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 18.json; sourceTree = "<group>"; };
+		AC4D44C41FA0FEA0001002E3 /* 14.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 14.json; sourceTree = "<group>"; };
+		AC4D44C51FA0FEA0001002E3 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		AC4D44C61FA0FEA0001002E3 /* 8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 8.json; sourceTree = "<group>"; };
+		AC4D44C71FA0FEA0001002E3 /* 24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 24.json; sourceTree = "<group>"; };
+		AC4D44C81FA0FEA0001002E3 /* 10.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10.json; sourceTree = "<group>"; };
+		AC4D44C91FA0FEA1001002E3 /* 12.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 12.json; sourceTree = "<group>"; };
+		AC4D44CA1FA0FEA1001002E3 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		AC4D44CB1FA0FEA1001002E3 /* 16.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 16.json; sourceTree = "<group>"; };
+		AC4D44CC1FA0FEA1001002E3 /* 28.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 28.json; sourceTree = "<group>"; };
+		AC4D44CD1FA0FEA1001002E3 /* 31.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 31.json; sourceTree = "<group>"; };
+		AC4D44CE1FA0FEA1001002E3 /* 33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 33.json; sourceTree = "<group>"; };
+		AC4D44CF1FA0FEA1001002E3 /* 35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 35.json; sourceTree = "<group>"; };
+		AC4D44D01FA0FEA1001002E3 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		ACB8D55B1FA0B647008D2454 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -160,6 +210,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC21CEE51FA103D900189EC9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AC21CEE61FA103E300189EC9 /* Domain */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		AC21CEE61FA103E300189EC9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC21CEE71FA103F000189EC9 /* AccountDetail.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		AC48B8AB1FA0AE6600AA88DD = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +275,8 @@
 		AC48B8DD1FA0B07A00AA88DD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AC21CEE51FA103D900189EC9 /* Detail */,
+				AC4D44B71FA0F9FF001002E3 /* IpagooService */,
 				AC4D44AD1FA0F307001002E3 /* Common */,
 				AC48B8DE1FA0B07A00AA88DD /* Core.h */,
 				AC48B8DF1FA0B07A00AA88DD /* Info.plist */,
@@ -241,6 +309,7 @@
 		AC4D44AD1FA0F307001002E3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AC4D44BC1FA0FE65001002E3 /* Data */,
 				AC4D44AE1FA0F31D001002E3 /* Domain */,
 			);
 			path = Common;
@@ -253,8 +322,46 @@
 				AC4D44B11FA0F40F001002E3 /* CountryCode.swift */,
 				AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */,
 				AC4D44B51FA0F64F001002E3 /* Status.swift */,
+				AC21CEE21FA1013A00189EC9 /* Page.swift */,
+				AC21CEE91FA1043200189EC9 /* Transaction.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		AC4D44B71FA0F9FF001002E3 /* IpagooService */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D44B81FA0FA13001002E3 /* IpagooService.swift */,
+				AC4D44BA1FA0FA94001002E3 /* Endpoint.swift */,
+			);
+			path = IpagooService;
+			sourceTree = "<group>";
+		};
+		AC4D44BC1FA0FE65001002E3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D44C51FA0FEA0001002E3 /* 1.json */,
+				AC4D44BD1FA0FE9F001002E3 /* 2.json */,
+				AC4D44BE1FA0FE9F001002E3 /* 3.json */,
+				AC4D44CA1FA0FEA1001002E3 /* 4.json */,
+				AC4D44D01FA0FEA1001002E3 /* 6.json */,
+				AC4D44C61FA0FEA0001002E3 /* 8.json */,
+				AC4D44C81FA0FEA0001002E3 /* 10.json */,
+				AC4D44C91FA0FEA1001002E3 /* 12.json */,
+				AC4D44C41FA0FEA0001002E3 /* 14.json */,
+				AC4D44CB1FA0FEA1001002E3 /* 16.json */,
+				AC4D44C31FA0FEA0001002E3 /* 18.json */,
+				AC4D44BF1FA0FE9F001002E3 /* 20.json */,
+				AC4D44C11FA0FEA0001002E3 /* 22.json */,
+				AC4D44C71FA0FEA0001002E3 /* 24.json */,
+				AC4D44C01FA0FEA0001002E3 /* 26.json */,
+				AC4D44CC1FA0FEA1001002E3 /* 28.json */,
+				AC4D44CD1FA0FEA1001002E3 /* 31.json */,
+				AC4D44CE1FA0FEA1001002E3 /* 33.json */,
+				AC4D44CF1FA0FEA1001002E3 /* 35.json */,
+				AC4D44C21FA0FEA0001002E3 /* accounts.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		ACB8D5581FA0B605008D2454 /* Playgrounds */ = {
@@ -429,6 +536,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */,
+				AC4D44DF1FA0FEA1001002E3 /* 16.json in Resources */,
+				AC4D44DC1FA0FEA1001002E3 /* 10.json in Resources */,
+				AC4D44E11FA0FEA1001002E3 /* 31.json in Resources */,
+				AC4D44DA1FA0FEA1001002E3 /* 8.json in Resources */,
+				AC4D44DE1FA0FEA1001002E3 /* 4.json in Resources */,
+				AC4D44D31FA0FEA1001002E3 /* 20.json in Resources */,
+				AC4D44D71FA0FEA1001002E3 /* 18.json in Resources */,
+				AC4D44D61FA0FEA1001002E3 /* accounts.json in Resources */,
+				AC4D44D11FA0FEA1001002E3 /* 2.json in Resources */,
+				AC4D44E21FA0FEA1001002E3 /* 33.json in Resources */,
+				AC4D44D81FA0FEA1001002E3 /* 14.json in Resources */,
+				AC4D44E01FA0FEA1001002E3 /* 28.json in Resources */,
+				AC4D44E31FA0FEA1001002E3 /* 35.json in Resources */,
+				AC4D44D21FA0FEA1001002E3 /* 3.json in Resources */,
+				AC4D44D41FA0FEA1001002E3 /* 26.json in Resources */,
+				AC4D44DD1FA0FEA1001002E3 /* 12.json in Resources */,
+				AC4D44DB1FA0FEA1001002E3 /* 24.json in Resources */,
+				AC4D44D91FA0FEA1001002E3 /* 1.json in Resources */,
+				AC4D44D51FA0FEA1001002E3 /* 22.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,8 +625,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC21CEE31FA1013A00189EC9 /* Page.swift in Sources */,
+				AC21CEE81FA103F000189EC9 /* AccountDetail.swift in Sources */,
+				AC4D44BB1FA0FA94001002E3 /* Endpoint.swift in Sources */,
 				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
+				AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
+				AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */,
 				AC4D44B01FA0F333001002E3 /* Account.swift in Sources */,
 				AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */,
 				AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */,

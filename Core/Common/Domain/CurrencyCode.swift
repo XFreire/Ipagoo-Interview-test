@@ -12,5 +12,4 @@ enum CurrencyCode: String, Decodable {
     case EUR
     case USD
     case GBP
-
 }

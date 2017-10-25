@@ -12,3 +12,9 @@ enum AccountStatus: String, Decodable {
     case active = "Active"
     case inactive = "Inactive"
 }
+
+enum TransactionStatus: String, Decodable {
+    case authorised = "Authorised"
+    case completed = "Completed"
+    case failed = "Failed"
+}
