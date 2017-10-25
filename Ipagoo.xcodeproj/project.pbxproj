@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */; };
+		AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B91FA0AE6600AA88DD /* ViewController.swift */; };
+		AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */; };
+		AC48B8BF1FA0AE6600AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */; };
+		AC48B8C21FA0AE6600AA88DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */; };
+		AC48B8CD1FA0AE6600AA88DD /* IpagooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC48B8C91FA0AE6600AA88DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48B8AC1FA0AE6600AA88DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48B8B31FA0AE6600AA88DD;
+			remoteInfo = Ipagoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipagoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC48B8B91FA0AE6600AA88DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC48B8BC1FA0AE6600AA88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC48B8C11FA0AE6600AA88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC48B8C31FA0AE6600AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IpagooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpagooTests.swift; sourceTree = "<group>"; };
+		AC48B8CE1FA0AE6600AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC48B8B11FA0AE6600AA88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8C51FA0AE6600AA88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC48B8AB1FA0AE6600AA88DD = {
+			isa = PBXGroup;
+			children = (
+				AC48B8B61FA0AE6600AA88DD /* Ipagoo */,
+				AC48B8CB1FA0AE6600AA88DD /* IpagooTests */,
+				AC48B8B51FA0AE6600AA88DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC48B8B51FA0AE6600AA88DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */,
+				AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC48B8B61FA0AE6600AA88DD /* Ipagoo */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */,
+				AC48B8B91FA0AE6600AA88DD /* ViewController.swift */,
+				AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */,
+				AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */,
+				AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */,
+				AC48B8C31FA0AE6600AA88DD /* Info.plist */,
+			);
+			path = Ipagoo;
+			sourceTree = "<group>";
+		};
+		AC48B8CB1FA0AE6600AA88DD /* IpagooTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */,
+				AC48B8CE1FA0AE6600AA88DD /* Info.plist */,
+			);
+			path = IpagooTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC48B8B31FA0AE6600AA88DD /* Ipagoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48B8D11FA0AE6600AA88DD /* Build configuration list for PBXNativeTarget "Ipagoo" */;
+			buildPhases = (
+				AC48B8B01FA0AE6600AA88DD /* Sources */,
+				AC48B8B11FA0AE6600AA88DD /* Frameworks */,
+				AC48B8B21FA0AE6600AA88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ipagoo;
+			productName = Ipagoo;
+			productReference = AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC48B8C71FA0AE6600AA88DD /* IpagooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48B8D41FA0AE6600AA88DD /* Build configuration list for PBXNativeTarget "IpagooTests" */;
+			buildPhases = (
+				AC48B8C41FA0AE6600AA88DD /* Sources */,
+				AC48B8C51FA0AE6600AA88DD /* Frameworks */,
+				AC48B8C61FA0AE6600AA88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC48B8CA1FA0AE6600AA88DD /* PBXTargetDependency */,
+			);
+			name = IpagooTests;
+			productName = IpagooTests;
+			productReference = AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC48B8AC1FA0AE6600AA88DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alexandre Freire García";
+				TargetAttributes = {
+					AC48B8B31FA0AE6600AA88DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC48B8C71FA0AE6600AA88DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC48B8B31FA0AE6600AA88DD;
+					};
+				};
+			};
+			buildConfigurationList = AC48B8AF1FA0AE6600AA88DD /* Build configuration list for PBXProject "Ipagoo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC48B8AB1FA0AE6600AA88DD;
+			productRefGroup = AC48B8B51FA0AE6600AA88DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC48B8B31FA0AE6600AA88DD /* Ipagoo */,
+				AC48B8C71FA0AE6600AA88DD /* IpagooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC48B8B21FA0AE6600AA88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B8C21FA0AE6600AA88DD /* LaunchScreen.storyboard in Resources */,
+				AC48B8BF1FA0AE6600AA88DD /* Assets.xcassets in Resources */,
+				AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8C61FA0AE6600AA88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC48B8B01FA0AE6600AA88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */,
+				AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8C41FA0AE6600AA88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B8CD1FA0AE6600AA88DD /* IpagooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC48B8CA1FA0AE6600AA88DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48B8B31FA0AE6600AA88DD /* Ipagoo */;
+			targetProxy = AC48B8C91FA0AE6600AA88DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B8BC1FA0AE6600AA88DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B8C11FA0AE6600AA88DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC48B8CF1FA0AE6600AA88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC48B8D01FA0AE6600AA88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC48B8D21FA0AE6600AA88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = Ipagoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.Ipagoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC48B8D31FA0AE6600AA88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = Ipagoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.Ipagoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC48B8D51FA0AE6600AA88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = IpagooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.IpagooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ipagoo.app/Ipagoo";
+			};
+			name = Debug;
+		};
+		AC48B8D61FA0AE6600AA88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = IpagooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.IpagooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ipagoo.app/Ipagoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC48B8AF1FA0AE6600AA88DD /* Build configuration list for PBXProject "Ipagoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48B8CF1FA0AE6600AA88DD /* Debug */,
+				AC48B8D01FA0AE6600AA88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC48B8D11FA0AE6600AA88DD /* Build configuration list for PBXNativeTarget "Ipagoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48B8D21FA0AE6600AA88DD /* Debug */,
+				AC48B8D31FA0AE6600AA88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC48B8D41FA0AE6600AA88DD /* Build configuration list for PBXNativeTarget "IpagooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48B8D51FA0AE6600AA88DD /* Debug */,
+				AC48B8D61FA0AE6600AA88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC48B8AC1FA0AE6600AA88DD /* Project object */;
+}
