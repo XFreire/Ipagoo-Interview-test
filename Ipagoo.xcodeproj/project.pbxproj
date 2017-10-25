@@ -31,6 +31,7 @@
 		AC48B90B1FA0B3F700AA88DD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FB1FA0B38500AA88DD /* Kingfisher.framework */; };
 		AC48B90C1FA0B3F700AA88DD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */; };
 		AC48B90D1FA0B3F700AA88DD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; };
+		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		AC48B9051FA0B3D600AA88DD /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		AC48B9061FA0B3D600AA88DD /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		ACB8D55B1FA0B647008D2454 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,7 @@
 				AC48B8EA1FA0B07A00AA88DD /* CoreTests */,
 				AC48B8B51FA0AE6600AA88DD /* Products */,
 				AC48B8FA1FA0B38500AA88DD /* Frameworks */,
+				ACB8D5581FA0B605008D2454 /* Playgrounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,6 +203,7 @@
 			children = (
 				AC48B8DE1FA0B07A00AA88DD /* Core.h */,
 				AC48B8DF1FA0B07A00AA88DD /* Info.plist */,
+				ACB8D5591FA0B61A008D2454 /* Core.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -222,6 +227,14 @@
 				AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACB8D5581FA0B605008D2454 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				ACB8D55B1FA0B647008D2454 /* MyPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +348,7 @@
 					};
 					AC48B8DB1FA0B07A00AA88DD = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					AC48B8E31FA0B07A00AA88DD = {
@@ -456,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +637,7 @@
 		AC48B8D21FA0AE6600AA88DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
@@ -641,6 +657,7 @@
 		AC48B8D31FA0AE6600AA88DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
@@ -702,6 +719,7 @@
 		AC48B8F31FA0B07A00AA88DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -720,6 +738,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -730,6 +749,7 @@
 		AC48B8F41FA0B07A00AA88DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
