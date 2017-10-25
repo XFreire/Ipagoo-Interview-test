@@ -13,6 +13,11 @@
 		AC48B8BF1FA0AE6600AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */; };
 		AC48B8C21FA0AE6600AA88DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */; };
 		AC48B8CD1FA0AE6600AA88DD /* IpagooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */; };
+		AC48B8E51FA0B07A00AA88DD /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8DC1FA0B07A00AA88DD /* Core.framework */; };
+		AC48B8EC1FA0B07A00AA88DD /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8EB1FA0B07A00AA88DD /* CoreTests.swift */; };
+		AC48B8EE1FA0B07A00AA88DD /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = AC48B8DE1FA0B07A00AA88DD /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC48B8F11FA0B07A00AA88DD /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8DC1FA0B07A00AA88DD /* Core.framework */; };
+		AC48B8F21FA0B07A00AA88DD /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8DC1FA0B07A00AA88DD /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +28,42 @@
 			remoteGlobalIDString = AC48B8B31FA0AE6600AA88DD;
 			remoteInfo = Ipagoo;
 		};
+		AC48B8E61FA0B07A00AA88DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48B8AC1FA0AE6600AA88DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48B8DB1FA0B07A00AA88DD;
+			remoteInfo = Core;
+		};
+		AC48B8E81FA0B07A00AA88DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48B8AC1FA0AE6600AA88DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48B8B31FA0AE6600AA88DD;
+			remoteInfo = Ipagoo;
+		};
+		AC48B8EF1FA0B07A00AA88DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC48B8AC1FA0AE6600AA88DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC48B8DB1FA0B07A00AA88DD;
+			remoteInfo = Core;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC48B8F81FA0B07A00AA88DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC48B8F21FA0B07A00AA88DD /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipagoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +76,12 @@
 		AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IpagooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpagooTests.swift; sourceTree = "<group>"; };
 		AC48B8CE1FA0AE6600AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48B8DC1FA0B07A00AA88DD /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48B8DE1FA0B07A00AA88DD /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		AC48B8DF1FA0B07A00AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48B8E41FA0B07A00AA88DD /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC48B8EB1FA0B07A00AA88DD /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		AC48B8ED1FA0B07A00AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC48B8F11FA0B07A00AA88DD /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +97,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8D81FA0B07A00AA88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8E11FA0B07A00AA88DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B8E51FA0B07A00AA88DD /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +123,8 @@
 			children = (
 				AC48B8B61FA0AE6600AA88DD /* Ipagoo */,
 				AC48B8CB1FA0AE6600AA88DD /* IpagooTests */,
+				AC48B8DD1FA0B07A00AA88DD /* Core */,
+				AC48B8EA1FA0B07A00AA88DD /* CoreTests */,
 				AC48B8B51FA0AE6600AA88DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +134,8 @@
 			children = (
 				AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */,
 				AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */,
+				AC48B8DC1FA0B07A00AA88DD /* Core.framework */,
+				AC48B8E41FA0B07A00AA88DD /* CoreTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +162,36 @@
 			path = IpagooTests;
 			sourceTree = "<group>";
 		};
+		AC48B8DD1FA0B07A00AA88DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B8DE1FA0B07A00AA88DD /* Core.h */,
+				AC48B8DF1FA0B07A00AA88DD /* Info.plist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AC48B8EA1FA0B07A00AA88DD /* CoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B8EB1FA0B07A00AA88DD /* CoreTests.swift */,
+				AC48B8ED1FA0B07A00AA88DD /* Info.plist */,
+			);
+			path = CoreTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC48B8D91FA0B07A00AA88DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B8EE1FA0B07A00AA88DD /* Core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		AC48B8B31FA0AE6600AA88DD /* Ipagoo */ = {
@@ -106,10 +201,12 @@
 				AC48B8B01FA0AE6600AA88DD /* Sources */,
 				AC48B8B11FA0AE6600AA88DD /* Frameworks */,
 				AC48B8B21FA0AE6600AA88DD /* Resources */,
+				AC48B8F81FA0B07A00AA88DD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AC48B8F01FA0B07A00AA88DD /* PBXTargetDependency */,
 			);
 			name = Ipagoo;
 			productName = Ipagoo;
@@ -134,6 +231,43 @@
 			productReference = AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AC48B8DB1FA0B07A00AA88DD /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48B8F71FA0B07A00AA88DD /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				AC48B8D71FA0B07A00AA88DD /* Sources */,
+				AC48B8D81FA0B07A00AA88DD /* Frameworks */,
+				AC48B8D91FA0B07A00AA88DD /* Headers */,
+				AC48B8DA1FA0B07A00AA88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Core;
+			productName = Core;
+			productReference = AC48B8DC1FA0B07A00AA88DD /* Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC48B8E31FA0B07A00AA88DD /* CoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC48B8F91FA0B07A00AA88DD /* Build configuration list for PBXNativeTarget "CoreTests" */;
+			buildPhases = (
+				AC48B8E01FA0B07A00AA88DD /* Sources */,
+				AC48B8E11FA0B07A00AA88DD /* Frameworks */,
+				AC48B8E21FA0B07A00AA88DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC48B8E71FA0B07A00AA88DD /* PBXTargetDependency */,
+				AC48B8E91FA0B07A00AA88DD /* PBXTargetDependency */,
+			);
+			name = CoreTests;
+			productName = CoreTests;
+			productReference = AC48B8E41FA0B07A00AA88DD /* CoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +283,15 @@
 						ProvisioningStyle = Automatic;
 					};
 					AC48B8C71FA0AE6600AA88DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC48B8B31FA0AE6600AA88DD;
+					};
+					AC48B8DB1FA0B07A00AA88DD = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC48B8E31FA0B07A00AA88DD = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC48B8B31FA0AE6600AA88DD;
@@ -170,6 +313,8 @@
 			targets = (
 				AC48B8B31FA0AE6600AA88DD /* Ipagoo */,
 				AC48B8C71FA0AE6600AA88DD /* IpagooTests */,
+				AC48B8DB1FA0B07A00AA88DD /* Core */,
+				AC48B8E31FA0B07A00AA88DD /* CoreTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +331,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AC48B8C61FA0AE6600AA88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8DA1FA0B07A00AA88DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8E21FA0B07A00AA88DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,6 +371,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC48B8D71FA0B07A00AA88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC48B8E01FA0B07A00AA88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B8EC1FA0B07A00AA88DD /* CoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +393,21 @@
 			isa = PBXTargetDependency;
 			target = AC48B8B31FA0AE6600AA88DD /* Ipagoo */;
 			targetProxy = AC48B8C91FA0AE6600AA88DD /* PBXContainerItemProxy */;
+		};
+		AC48B8E71FA0B07A00AA88DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48B8DB1FA0B07A00AA88DD /* Core */;
+			targetProxy = AC48B8E61FA0B07A00AA88DD /* PBXContainerItemProxy */;
+		};
+		AC48B8E91FA0B07A00AA88DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48B8B31FA0AE6600AA88DD /* Ipagoo */;
+			targetProxy = AC48B8E81FA0B07A00AA88DD /* PBXContainerItemProxy */;
+		};
+		AC48B8F01FA0B07A00AA88DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC48B8DB1FA0B07A00AA88DD /* Core */;
+			targetProxy = AC48B8EF1FA0B07A00AA88DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -413,6 +602,86 @@
 			};
 			name = Release;
 		};
+		AC48B8F31FA0B07A00AA88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Core/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.Core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC48B8F41FA0B07A00AA88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Core/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.Core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC48B8F51FA0B07A00AA88DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = CoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.CoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ipagoo.app/Ipagoo";
+			};
+			name = Debug;
+		};
+		AC48B8F61FA0B07A00AA88DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
+				INFOPLIST_FILE = CoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.CoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ipagoo.app/Ipagoo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -439,6 +708,24 @@
 			buildConfigurations = (
 				AC48B8D51FA0AE6600AA88DD /* Debug */,
 				AC48B8D61FA0AE6600AA88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC48B8F71FA0B07A00AA88DD /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48B8F31FA0B07A00AA88DD /* Debug */,
+				AC48B8F41FA0B07A00AA88DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC48B8F91FA0B07A00AA88DD /* Build configuration list for PBXNativeTarget "CoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC48B8F51FA0B07A00AA88DD /* Debug */,
+				AC48B8F61FA0B07A00AA88DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
