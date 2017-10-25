@@ -31,6 +31,10 @@
 		AC48B90B1FA0B3F700AA88DD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FB1FA0B38500AA88DD /* Kingfisher.framework */; };
 		AC48B90C1FA0B3F700AA88DD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */; };
 		AC48B90D1FA0B3F700AA88DD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; };
+		AC4D44B01FA0F333001002E3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44AF1FA0F333001002E3 /* Account.swift */; };
+		AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B11FA0F40F001002E3 /* CountryCode.swift */; };
+		AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */; };
+		AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B51FA0F64F001002E3 /* Status.swift */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +105,10 @@
 		AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		AC48B9051FA0B3D600AA88DD /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		AC48B9061FA0B3D600AA88DD /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		AC4D44AF1FA0F333001002E3 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		AC4D44B11FA0F40F001002E3 /* CountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
+		AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCode.swift; sourceTree = "<group>"; };
+		AC4D44B51FA0F64F001002E3 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		ACB8D55B1FA0B647008D2454 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -201,6 +209,7 @@
 		AC48B8DD1FA0B07A00AA88DD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AC4D44AD1FA0F307001002E3 /* Common */,
 				AC48B8DE1FA0B07A00AA88DD /* Core.h */,
 				AC48B8DF1FA0B07A00AA88DD /* Info.plist */,
 				ACB8D5591FA0B61A008D2454 /* Core.swift */,
@@ -227,6 +236,25 @@
 				AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4D44AD1FA0F307001002E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D44AE1FA0F31D001002E3 /* Domain */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC4D44AE1FA0F31D001002E3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D44AF1FA0F333001002E3 /* Account.swift */,
+				AC4D44B11FA0F40F001002E3 /* CountryCode.swift */,
+				AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */,
+				AC4D44B51FA0F64F001002E3 /* Status.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		ACB8D5581FA0B605008D2454 /* Playgrounds */ = {
@@ -471,6 +499,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
+				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
+				AC4D44B01FA0F333001002E3 /* Account.swift in Sources */,
+				AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */,
+				AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
