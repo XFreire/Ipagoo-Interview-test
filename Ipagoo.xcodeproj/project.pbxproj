@@ -76,6 +76,10 @@
 		ACE1D26E1FA11DA6008ED52A /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */; };
 		ACE1D2711FA11FC0008ED52A /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D26F1FA11FC0008ED52A /* AccountListViewController.swift */; };
 		ACE1D2721FA11FC0008ED52A /* AccountListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE1D2701FA11FC0008ED52A /* AccountListViewController.xib */; };
+		ACF6027E1FA14B7C004972BD /* AccountDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6027C1FA14B7C004972BD /* AccountDetailViewController.swift */; };
+		ACF6027F1FA14B7C004972BD /* AccountDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF6027D1FA14B7C004972BD /* AccountDetailViewController.xib */; };
+		ACF602821FA14C47004972BD /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF602801FA14C47004972BD /* TransactionCell.swift */; };
+		ACF602831FA14C47004972BD /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF602811FA14C47004972BD /* TransactionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +196,10 @@
 		ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
 		ACE1D26F1FA11FC0008ED52A /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
 		ACE1D2701FA11FC0008ED52A /* AccountListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountListViewController.xib; sourceTree = "<group>"; };
+		ACF6027C1FA14B7C004972BD /* AccountDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailViewController.swift; sourceTree = "<group>"; };
+		ACF6027D1FA14B7C004972BD /* AccountDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailViewController.xib; sourceTree = "<group>"; };
+		ACF602801FA14C47004972BD /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		ACF602811FA14C47004972BD /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,6 +455,10 @@
 				ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */,
 				ACB9B2B31FA14AAB003FC82C /* CardView.swift */,
 				ACB9B2B21FA14AAB003FC82C /* CardView.xib */,
+				ACF6027C1FA14B7C004972BD /* AccountDetailViewController.swift */,
+				ACF6027D1FA14B7C004972BD /* AccountDetailViewController.xib */,
+				ACF602801FA14C47004972BD /* TransactionCell.swift */,
+				ACF602811FA14C47004972BD /* TransactionCell.xib */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -629,10 +641,12 @@
 				AC4D44DC1FA0FEA1001002E3 /* 10.json in Resources */,
 				AC4D44E11FA0FEA1001002E3 /* 31.json in Resources */,
 				AC4D44DA1FA0FEA1001002E3 /* 8.json in Resources */,
+				ACF602831FA14C47004972BD /* TransactionCell.xib in Resources */,
 				AC4D44DE1FA0FEA1001002E3 /* 4.json in Resources */,
 				AC4D44D31FA0FEA1001002E3 /* 20.json in Resources */,
 				AC4D44D71FA0FEA1001002E3 /* 18.json in Resources */,
 				AC4D44D61FA0FEA1001002E3 /* accounts.json in Resources */,
+				ACF6027F1FA14B7C004972BD /* AccountDetailViewController.xib in Resources */,
 				AC4D44D11FA0FEA1001002E3 /* 2.json in Resources */,
 				AC4D44E21FA0FEA1001002E3 /* 33.json in Resources */,
 				AC4D44D81FA0FEA1001002E3 /* 14.json in Resources */,
@@ -727,6 +741,7 @@
 				AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */,
 				AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
+				ACF602821FA14C47004972BD /* TransactionCell.swift in Sources */,
 				ACE1D26E1FA11DA6008ED52A /* AccountRepository.swift in Sources */,
 				AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */,
 				ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */,
@@ -735,6 +750,7 @@
 				AC21CEFA1FA1118100189EC9 /* AccountCell.swift in Sources */,
 				AC21CEF11FA10DCA00189EC9 /* UICollectionView+Reusable.swift in Sources */,
 				AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */,
+				ACF6027E1FA14B7C004972BD /* AccountDetailViewController.swift in Sources */,
 				ACE1D2711FA11FC0008ED52A /* AccountListViewController.swift in Sources */,
 				AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */,
 			);

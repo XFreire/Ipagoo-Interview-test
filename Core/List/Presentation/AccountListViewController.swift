@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class AccountListViewController: UIViewController {
+final class AccountListViewController: UIViewController {
 
     // MARK: - Outlets
     @IBOutlet weak var tableView: UITableView! {
