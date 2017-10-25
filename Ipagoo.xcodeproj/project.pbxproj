@@ -68,6 +68,9 @@
 		AC4D44E31FA0FEA1001002E3 /* 35.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CF1FA0FEA1001002E3 /* 35.json */; };
 		AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44D01FA0FEA1001002E3 /* 6.json */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
+		ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */; };
+		ACB9B2B51FA14AAB003FC82C /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB9B2B21FA14AAB003FC82C /* CardView.xib */; };
+		ACB9B2B61FA14AAB003FC82C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9B2B31FA14AAB003FC82C /* CardView.swift */; };
 		ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */; };
 		ACE1D26B1FA11C90008ED52A /* AccountListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D26A1FA11C90008ED52A /* AccountListPresenter.swift */; };
 		ACE1D26E1FA11DA6008ED52A /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */; };
@@ -180,6 +183,9 @@
 		AC4D44D01FA0FEA1001002E3 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		ACB8D55B1FA0B647008D2454 /* IpagooService.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IpagooService.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
+		ACB9B2B21FA14AAB003FC82C /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		ACB9B2B31FA14AAB003FC82C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		ACE1D2671FA115BA008ED52A /* List.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = List.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ACE1D2681FA116A4008ED52A /* AccountCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCellPresenter.swift; sourceTree = "<group>"; };
 		ACE1D26A1FA11C90008ED52A /* AccountListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListPresenter.swift; sourceTree = "<group>"; };
@@ -238,6 +244,7 @@
 		AC21CEE51FA103D900189EC9 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				ACB9B2B71FA14AE1003FC82C /* Presentation */,
 				AC21CEE61FA103E300189EC9 /* Domain */,
 			);
 			path = Detail;
@@ -434,6 +441,16 @@
 			path = Playgrounds;
 			sourceTree = "<group>";
 		};
+		ACB9B2B71FA14AE1003FC82C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */,
+				ACB9B2B31FA14AAB003FC82C /* CardView.swift */,
+				ACB9B2B21FA14AAB003FC82C /* CardView.xib */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
 		ACE1D26C1FA11D80008ED52A /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
@@ -608,6 +625,7 @@
 			files = (
 				AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */,
 				AC4D44DF1FA0FEA1001002E3 /* 16.json in Resources */,
+				ACB9B2B51FA14AAB003FC82C /* CardView.xib in Resources */,
 				AC4D44DC1FA0FEA1001002E3 /* 10.json in Resources */,
 				AC4D44E11FA0FEA1001002E3 /* 31.json in Resources */,
 				AC4D44DA1FA0FEA1001002E3 /* 8.json in Resources */,
@@ -702,8 +720,10 @@
 				AC21CEE81FA103F000189EC9 /* AccountDetail.swift in Sources */,
 				AC21CEF21FA10DCA00189EC9 /* UITableView+Reusable.swift in Sources */,
 				AC4D44BB1FA0FA94001002E3 /* Endpoint.swift in Sources */,
+				ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */,
 				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
 				AC21CEF31FA10DCA00189EC9 /* ReusableView.swift in Sources */,
+				ACB9B2B61FA14AAB003FC82C /* CardView.swift in Sources */,
 				AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */,
 				AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
