@@ -10,6 +10,11 @@
 		AC21CEE31FA1013A00189EC9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEE21FA1013A00189EC9 /* Page.swift */; };
 		AC21CEE81FA103F000189EC9 /* AccountDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEE71FA103F000189EC9 /* AccountDetail.swift */; };
 		AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEE91FA1043200189EC9 /* Transaction.swift */; };
+		AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEEC1FA10DC900189EC9 /* NibLoadableView.swift */; };
+		AC21CEF11FA10DCA00189EC9 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEED1FA10DCA00189EC9 /* UICollectionView+Reusable.swift */; };
+		AC21CEF21FA10DCA00189EC9 /* UITableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEEE1FA10DCA00189EC9 /* UITableView+Reusable.swift */; };
+		AC21CEF31FA10DCA00189EC9 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEEF1FA10DCA00189EC9 /* ReusableView.swift */; };
+		AC21CEF61FA1105D00189EC9 /* Core.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC21CEF51FA1105C00189EC9 /* Core.xcassets */; };
 		AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */; };
 		AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B91FA0AE6600AA88DD /* ViewController.swift */; };
 		AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */; };
@@ -112,6 +117,11 @@
 		AC21CEE21FA1013A00189EC9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		AC21CEE71FA103F000189EC9 /* AccountDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetail.swift; sourceTree = "<group>"; };
 		AC21CEE91FA1043200189EC9 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		AC21CEEC1FA10DC900189EC9 /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		AC21CEED1FA10DCA00189EC9 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		AC21CEEE1FA10DCA00189EC9 /* UITableView+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Reusable.swift"; sourceTree = "<group>"; };
+		AC21CEEF1FA10DCA00189EC9 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		AC21CEF51FA1105C00189EC9 /* Core.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Core.xcassets; sourceTree = "<group>"; };
 		AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipagoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC48B8B91FA0AE6600AA88DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -226,6 +236,24 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		AC21CEEB1FA10DAB00189EC9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AC21CEEC1FA10DC900189EC9 /* NibLoadableView.swift */,
+				AC21CEEF1FA10DCA00189EC9 /* ReusableView.swift */,
+				AC21CEED1FA10DCA00189EC9 /* UICollectionView+Reusable.swift */,
+				AC21CEEE1FA10DCA00189EC9 /* UITableView+Reusable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AC21CEF41FA10E1700189EC9 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		AC48B8AB1FA0AE6600AA88DD = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				AC21CEE51FA103D900189EC9 /* Detail */,
+				AC21CEF41FA10E1700189EC9 /* List */,
 				AC4D44B71FA0F9FF001002E3 /* IpagooService */,
 				AC4D44AD1FA0F307001002E3 /* Common */,
 				AC48B8DE1FA0B07A00AA88DD /* Core.h */,
@@ -309,8 +338,10 @@
 		AC4D44AD1FA0F307001002E3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				AC4D44BC1FA0FE65001002E3 /* Data */,
 				AC4D44AE1FA0F31D001002E3 /* Domain */,
+				AC21CEEB1FA10DAB00189EC9 /* Utilities */,
+				AC4D44BC1FA0FE65001002E3 /* Data */,
+				AC21CEF51FA1105C00189EC9 /* Core.xcassets */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -553,6 +584,7 @@
 				AC4D44D21FA0FEA1001002E3 /* 3.json in Resources */,
 				AC4D44D41FA0FEA1001002E3 /* 26.json in Resources */,
 				AC4D44DD1FA0FEA1001002E3 /* 12.json in Resources */,
+				AC21CEF61FA1105D00189EC9 /* Core.xcassets in Resources */,
 				AC4D44DB1FA0FEA1001002E3 /* 24.json in Resources */,
 				AC4D44D91FA0FEA1001002E3 /* 1.json in Resources */,
 				AC4D44D51FA0FEA1001002E3 /* 22.json in Resources */,
@@ -627,12 +659,16 @@
 			files = (
 				AC21CEE31FA1013A00189EC9 /* Page.swift in Sources */,
 				AC21CEE81FA103F000189EC9 /* AccountDetail.swift in Sources */,
+				AC21CEF21FA10DCA00189EC9 /* UITableView+Reusable.swift in Sources */,
 				AC4D44BB1FA0FA94001002E3 /* Endpoint.swift in Sources */,
 				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
+				AC21CEF31FA10DCA00189EC9 /* ReusableView.swift in Sources */,
 				AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */,
+				AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
 				AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */,
 				AC4D44B01FA0F333001002E3 /* Account.swift in Sources */,
+				AC21CEF11FA10DCA00189EC9 /* UICollectionView+Reusable.swift in Sources */,
 				AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */,
 				AC4D44B61FA0F64F001002E3 /* Status.swift in Sources */,
 			);
