@@ -19,6 +19,7 @@ final class TransactionCellPresenter {
     }
     
     func present(transaction: Transaction, in cell: TransactionCell) {
+        cell.selectionStyle = .none
         if transaction.amount >= 0 {
             cell.nameLabel.text = transaction.receiverDisplayName.uppercased()
             cell.arrowView.image = UIImage(named: "ArrowDown", in: Bundle(for: type(of: self)), compatibleWith: nil)
