@@ -3,7 +3,8 @@
 @testable import Core
 import RxSwift
 
-let service = IpagooService()
+let assembly = CoreAssembly(navigationController: UINavigationController())
+let service = assembly.ipagooServiceAssembly.ipagooService
 let disposeBag = DisposeBag()
 
 service.load(Page<Account>.self, from: .accounts)
