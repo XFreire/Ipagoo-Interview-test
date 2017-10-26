@@ -70,6 +70,8 @@
 		AC9B38851FA1E724008B0715 /* IpagooServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38841FA1E724008B0715 /* IpagooServiceAssembly.swift */; };
 		AC9B38881FA1E79D008B0715 /* AccountListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38871FA1E79D008B0715 /* AccountListAssembly.swift */; };
 		AC9B388B1FA1E813008B0715 /* DetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */; };
+		AC9B388D1FA1EC10008B0715 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388C1FA1EC10008B0715 /* AppAssembly.swift */; };
+		AC9B38901FA1EC58008B0715 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388F1FA1EC58008B0715 /* CoreAssembly.swift */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 		ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */; };
 		ACB9B2B51FA14AAB003FC82C /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB9B2B21FA14AAB003FC82C /* CardView.xib */; };
@@ -194,6 +196,8 @@
 		AC9B38841FA1E724008B0715 /* IpagooServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpagooServiceAssembly.swift; sourceTree = "<group>"; };
 		AC9B38871FA1E79D008B0715 /* AccountListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListAssembly.swift; sourceTree = "<group>"; };
 		AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAssembly.swift; sourceTree = "<group>"; };
+		AC9B388C1FA1EC10008B0715 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		AC9B388F1FA1EC58008B0715 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		ACB8D55B1FA0B647008D2454 /* IpagooService.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IpagooService.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
@@ -345,6 +349,7 @@
 				AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */,
 				AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */,
 				AC48B8C31FA0AE6600AA88DD /* Info.plist */,
+				AC9B388C1FA1EC10008B0715 /* AppAssembly.swift */,
 			);
 			path = Ipagoo;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 		AC48B8DD1FA0B07A00AA88DD /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				AC9B388E1FA1EC50008B0715 /* DI */,
 				AC21CEE51FA103D900189EC9 /* Detail */,
 				AC21CEF41FA10E1700189EC9 /* List */,
 				AC4D44B71FA0F9FF001002E3 /* IpagooService */,
@@ -466,6 +472,14 @@
 			isa = PBXGroup;
 			children = (
 				AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		AC9B388E1FA1EC50008B0715 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B388F1FA1EC58008B0715 /* CoreAssembly.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -754,6 +768,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */,
+				AC9B388D1FA1EC10008B0715 /* AppAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,6 +792,7 @@
 				AC9B38881FA1E79D008B0715 /* AccountListAssembly.swift in Sources */,
 				ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */,
 				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
+				AC9B38901FA1EC58008B0715 /* CoreAssembly.swift in Sources */,
 				ACF602881FA1522D004972BD /* DetailNavigator.swift in Sources */,
 				AC21CEF31FA10DCA00189EC9 /* ReusableView.swift in Sources */,
 				ACB9B2B61FA14AAB003FC82C /* CardView.swift in Sources */,
