@@ -17,6 +17,7 @@ final class AccountListViewController: UIViewController {
         didSet{
             tableView.register(AccountCell.self)
             tableView.separatorColor = .clear
+            tableView.rowHeight = Constants.rowHeight
         }
     }
     
@@ -76,8 +77,12 @@ extension AccountListViewController: AccountListView {
             }
             .disposed(by: disposeBag)
     }
-    
-    
+}
+
+private extension AccountListViewController {
+    enum Constants {
+        static let rowHeight: CGFloat = 175
+    }
 }
 
 

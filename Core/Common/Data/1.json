@@ -5,7 +5,7 @@
 		"TransactionId": 34,
 		"Date": "2017-05-05T02:01:50.8080235+02:00",
 		"Reference": "MNG23221912",
-		"Amount": -12.0000,
+		"Amount": 12.0000,
 		"CurrencyCode": "EUR",
 		"Status": "Completed",
 		"SenderDisplayName": "John Smith",

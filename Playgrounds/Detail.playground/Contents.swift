@@ -17,4 +17,5 @@ let cellPresenter = TransactionCellPresenter(dateFormatter: dateFormatter)
 let vc = AccountDetailViewController(presenter: presenter, cellPresenter: cellPresenter, cardPresenter: CardPresenter())
 vc.view.frame = CGRect(x: 0, y: 0, width: 475, height: 667)
 
+let img = UIImage(named: "ArrowUp")
 PlaygroundPage.current.liveView = vc

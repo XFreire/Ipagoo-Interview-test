@@ -15,10 +15,13 @@
             <rect key="frame" x="0.0" y="0.0" width="337" height="175"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L6l-wU-I7q">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L6l-wU-I7q">
                     <rect key="frame" x="0.0" y="0.0" width="337" height="175"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="175" id="SOb-Z4-xsB"/>
+                    </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradientA" translatesAutoresizingMaskIntoConstraints="NO" id="rCA-mW-fvU" userLabel="GradientView">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GradientA" translatesAutoresizingMaskIntoConstraints="NO" id="rCA-mW-fvU" userLabel="GradientView">
                     <rect key="frame" x="0.0" y="0.0" width="337" height="175"/>
                 </imageView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="drL-Mr-f3f">

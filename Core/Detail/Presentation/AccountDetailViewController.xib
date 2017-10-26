@@ -23,14 +23,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8ux-Kj-U5w">
-                    <rect key="frame" x="0.0" y="175" width="375" height="492"/>
+                    <rect key="frame" x="0.0" y="115" width="375" height="552"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="lfq-Xx-Pmc">
-                    <rect key="frame" x="178" y="411" width="20" height="20"/>
+                    <rect key="frame" x="178" y="381" width="20" height="20"/>
                 </activityIndicatorView>
-                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="175" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YEd-Iy-jzy">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="115" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YEd-Iy-jzy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                 </stackView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
