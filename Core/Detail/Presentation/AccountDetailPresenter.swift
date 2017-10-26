@@ -19,6 +19,10 @@ protocol AccountDetailView: class {
 
 final class AccountDetailPresenter {
     
+    enum TransactionDisplayOption: Int {
+        case all, debits, credits
+    }
+    
     // MARK: - Properties
     weak var view: AccountDetailView?
     private let account: Account
@@ -30,31 +34,50 @@ final class AccountDetailPresenter {
         self.repository = repository
         self.account = account
     }
+    
     func didLoad() {
         self.view?.title = NSLocalizedString("Detail", comment: "").uppercased()
         self.view?.update(with: account)
-        loadContents()
+    }
+    
+    func didSelect(displayOption: TransactionDisplayOption) {
+        loadContents(option: displayOption)
+        
     }
 }
 
 private extension AccountDetailPresenter {
-    func loadContents() {
+    func loadContents(option: TransactionDisplayOption) {
         self.view?.setLoading(true)
         
         repository.account(withIdentifier: account.identifier)
-            .do(onNext: { [weak self] accountDetail in
-                if accountDetail.transactions.isEmpty {
+            .map{ [weak self] accountDetail in
+                 self?.transactions(accountDetail.transactions, of: option) ?? []
+            }
+            .do(onNext: { [weak self] transactions in
+                if transactions.isEmpty {
                     self?.view?.enableEmptyContentMode()
                 } else {
                     self?.view?.disableEmptyContentMode()
                 }
             })
-            .subscribe(onNext: { [weak self] accountDetail in
+            .subscribe(onNext: { [weak self] transactions in
                 guard let `self` = self else { return }
-                self.view?.update(with: accountDetail.transactions)
+                self.view?.update(with: transactions)
             },  onDisposed: { [weak self] in
                 self?.view?.setLoading(false)
             })
             .disposed(by: disposeBag)
+    }
+    
+    private func transactions(_ transactions: [Transaction], of type: TransactionDisplayOption) -> [Transaction] {
+        switch type {
+        case .all: return transactions
+        case .debits:
+            return transactions.filter{ $0.amount < 0}
+        case .credits:
+            return transactions.filter{ $0.amount > 0}
+
+        }
     }
 }

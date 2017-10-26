@@ -18,6 +18,7 @@ final class AccountDetailViewController: UIViewController {
 
     // MARK: - Outlets
     
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var tableView: UITableView! {
         didSet{
@@ -55,6 +56,13 @@ final class AccountDetailViewController: UIViewController {
         super.viewDidLoad()
         presenter.view = self
         presenter.didLoad()
+        segmentedControl.rx.selectedSegmentIndex
+            .subscribe(onNext: { [weak self] index in
+                guard let `self` = self, let option = AccountDetailPresenter.TransactionDisplayOption(rawValue: index) else { return }
+                
+                self.presenter.didSelect(displayOption: option)
+            })
+            .disposed(by: disposeBag)
     }
 }
 
@@ -63,7 +71,6 @@ extension AccountDetailViewController: AccountDetailView {
         tableView.isHidden = false
         emptyContentModeLabel.isHidden = true
     }
-    
     
     func enableEmptyContentMode() {
         emptyContentModeLabel.text = NSLocalizedString("There are no recent transactions yet", comment: "")
