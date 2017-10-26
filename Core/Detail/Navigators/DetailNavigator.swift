@@ -13,8 +13,18 @@ protocol DetailNavigator {
 }
 
 final class PhoneDetailNavigator: DetailNavigator {
+    
+    // MARK: - Properties
+    private let navigationController: UINavigationController
+    private unowned let viewControllerProvider: DetailViewControllerProvider
+    
+    init(navigationController: UINavigationController, viewControllerProvider: DetailViewControllerProvider) {
+        self.navigationController = navigationController
+        self.viewControllerProvider = viewControllerProvider
+    }
     func showDetail(of account: Account) {
-        
+        let viewController = viewControllerProvider.detailViewController(account: account)
+        navigationController.pushViewController(viewController, animated: true)
     }
     
     

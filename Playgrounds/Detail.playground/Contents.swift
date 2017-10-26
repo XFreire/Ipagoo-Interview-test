@@ -17,10 +17,4 @@ let cellPresenter = TransactionCellPresenter(dateFormatter: dateFormatter)
 let vc = AccountDetailViewController(presenter: presenter, cellPresenter: cellPresenter, cardPresenter: CardPresenter())
 vc.view.frame = CGRect(x: 0, y: 0, width: 475, height: 667)
 
-//print(vc.cardView)
-//print(vc.loadingView)
-//print(vc.tableView)
-
-//vc.view.frame = CGRect(x: 0, y: 0, width: 475, height: 667)
-
 PlaygroundPage.current.liveView = vc

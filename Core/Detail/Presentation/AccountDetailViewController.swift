@@ -10,6 +10,10 @@ import UIKit
 import RxSwift
 import RxCocoa
 
+protocol DetailViewControllerProvider: class {
+    func detailViewController(account: Account) -> UIViewController
+}
+
 final class AccountDetailViewController: UIViewController {
 
     // MARK: - Outlets

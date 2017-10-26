@@ -18,8 +18,6 @@
 		AC21CEFA1FA1118100189EC9 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21CEF81FA1118100189EC9 /* AccountCell.swift */; };
 		AC21CEFB1FA1118100189EC9 /* AccountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC21CEF91FA1118100189EC9 /* AccountCell.xib */; };
 		AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */; };
-		AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B91FA0AE6600AA88DD /* ViewController.swift */; };
-		AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */; };
 		AC48B8BF1FA0AE6600AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */; };
 		AC48B8C21FA0AE6600AA88DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */; };
 		AC48B8CD1FA0AE6600AA88DD /* IpagooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */; };
@@ -41,6 +39,8 @@
 		AC48B90B1FA0B3F700AA88DD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FB1FA0B38500AA88DD /* Kingfisher.framework */; };
 		AC48B90C1FA0B3F700AA88DD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */; };
 		AC48B90D1FA0B3F700AA88DD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; };
+		AC494DC11FA1C8EC005E68A8 /* TransactionCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC494DC01FA1C8EC005E68A8 /* TransactionCellPresenter.swift */; };
+		AC494DC31FA1CB3A005E68A8 /* Date+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC494DC21FA1CB3A005E68A8 /* Date+Utilities.swift */; };
 		AC4D44B01FA0F333001002E3 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44AF1FA0F333001002E3 /* Account.swift */; };
 		AC4D44B21FA0F40F001002E3 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B11FA0F40F001002E3 /* CountryCode.swift */; };
 		AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */; };
@@ -67,6 +67,9 @@
 		AC4D44E21FA0FEA1001002E3 /* 33.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CE1FA0FEA1001002E3 /* 33.json */; };
 		AC4D44E31FA0FEA1001002E3 /* 35.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44CF1FA0FEA1001002E3 /* 35.json */; };
 		AC4D44E41FA0FEA1001002E3 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = AC4D44D01FA0FEA1001002E3 /* 6.json */; };
+		AC9B38851FA1E724008B0715 /* IpagooServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38841FA1E724008B0715 /* IpagooServiceAssembly.swift */; };
+		AC9B38881FA1E79D008B0715 /* AccountListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38871FA1E79D008B0715 /* AccountListAssembly.swift */; };
+		AC9B388B1FA1E813008B0715 /* DetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 		ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */; };
 		ACB9B2B51FA14AAB003FC82C /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB9B2B21FA14AAB003FC82C /* CardView.xib */; };
@@ -80,6 +83,8 @@
 		ACF6027F1FA14B7C004972BD /* AccountDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF6027D1FA14B7C004972BD /* AccountDetailViewController.xib */; };
 		ACF602821FA14C47004972BD /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF602801FA14C47004972BD /* TransactionCell.swift */; };
 		ACF602831FA14C47004972BD /* TransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF602811FA14C47004972BD /* TransactionCell.xib */; };
+		ACF602851FA15185004972BD /* AccountDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF602841FA15185004972BD /* AccountDetailPresenter.swift */; };
+		ACF602881FA1522D004972BD /* DetailNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF602871FA1522D004972BD /* DetailNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,8 +145,6 @@
 		AC21CEF91FA1118100189EC9 /* AccountCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountCell.xib; sourceTree = "<group>"; };
 		AC48B8B41FA0AE6600AA88DD /* Ipagoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ipagoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC48B8B91FA0AE6600AA88DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC48B8BC1FA0AE6600AA88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC48B8C11FA0AE6600AA88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC48B8C31FA0AE6600AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +162,9 @@
 		AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		AC48B9051FA0B3D600AA88DD /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		AC48B9061FA0B3D600AA88DD /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		AC494DC01FA1C8EC005E68A8 /* TransactionCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCellPresenter.swift; sourceTree = "<group>"; };
+		AC494DC21FA1CB3A005E68A8 /* Date+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utilities.swift"; sourceTree = "<group>"; };
+		AC494DC41FA1CE2B005E68A8 /* Detail.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Detail.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AC4D44AF1FA0F333001002E3 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		AC4D44B11FA0F40F001002E3 /* CountryCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCode.swift; sourceTree = "<group>"; };
 		AC4D44B31FA0F565001002E3 /* CurrencyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCode.swift; sourceTree = "<group>"; };
@@ -185,6 +191,9 @@
 		AC4D44CE1FA0FEA1001002E3 /* 33.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 33.json; sourceTree = "<group>"; };
 		AC4D44CF1FA0FEA1001002E3 /* 35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 35.json; sourceTree = "<group>"; };
 		AC4D44D01FA0FEA1001002E3 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		AC9B38841FA1E724008B0715 /* IpagooServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpagooServiceAssembly.swift; sourceTree = "<group>"; };
+		AC9B38871FA1E79D008B0715 /* AccountListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListAssembly.swift; sourceTree = "<group>"; };
+		AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAssembly.swift; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		ACB8D55B1FA0B647008D2454 /* IpagooService.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IpagooService.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
@@ -200,6 +209,8 @@
 		ACF6027D1FA14B7C004972BD /* AccountDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailViewController.xib; sourceTree = "<group>"; };
 		ACF602801FA14C47004972BD /* TransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
 		ACF602811FA14C47004972BD /* TransactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionCell.xib; sourceTree = "<group>"; };
+		ACF602841FA15185004972BD /* AccountDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailPresenter.swift; sourceTree = "<group>"; };
+		ACF602871FA1522D004972BD /* DetailNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +263,8 @@
 		AC21CEE51FA103D900189EC9 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				AC9B38891FA1E809008B0715 /* DI */,
+				ACF602861FA15220004972BD /* Navigators */,
 				ACB9B2B71FA14AE1003FC82C /* Presentation */,
 				AC21CEE61FA103E300189EC9 /* Domain */,
 			);
@@ -269,6 +282,7 @@
 		AC21CEEB1FA10DAB00189EC9 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				AC494DC21FA1CB3A005E68A8 /* Date+Utilities.swift */,
 				AC21CEEC1FA10DC900189EC9 /* NibLoadableView.swift */,
 				AC21CEEF1FA10DCA00189EC9 /* ReusableView.swift */,
 				AC21CEED1FA10DCA00189EC9 /* UICollectionView+Reusable.swift */,
@@ -280,6 +294,7 @@
 		AC21CEF41FA10E1700189EC9 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				AC9B38861FA1E78F008B0715 /* DI */,
 				ACE1D26C1FA11D80008ED52A /* Repositories */,
 				AC21CEF71FA1113500189EC9 /* Presentation */,
 			);
@@ -327,8 +342,6 @@
 			isa = PBXGroup;
 			children = (
 				AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */,
-				AC48B8B91FA0AE6600AA88DD /* ViewController.swift */,
-				AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */,
 				AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */,
 				AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */,
 				AC48B8C31FA0AE6600AA88DD /* Info.plist */,
@@ -409,6 +422,7 @@
 			children = (
 				AC4D44B81FA0FA13001002E3 /* IpagooService.swift */,
 				AC4D44BA1FA0FA94001002E3 /* Endpoint.swift */,
+				AC9B38841FA1E724008B0715 /* IpagooServiceAssembly.swift */,
 			);
 			path = IpagooService;
 			sourceTree = "<group>";
@@ -440,9 +454,26 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		AC9B38861FA1E78F008B0715 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B38871FA1E79D008B0715 /* AccountListAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		AC9B38891FA1E809008B0715 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 		ACB8D5581FA0B605008D2454 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				AC494DC41FA1CE2B005E68A8 /* Detail.playground */,
 				ACE1D2671FA115BA008ED52A /* List.playground */,
 				ACB8D55B1FA0B647008D2454 /* IpagooService.playground */,
 			);
@@ -459,6 +490,8 @@
 				ACF6027D1FA14B7C004972BD /* AccountDetailViewController.xib */,
 				ACF602801FA14C47004972BD /* TransactionCell.swift */,
 				ACF602811FA14C47004972BD /* TransactionCell.xib */,
+				AC494DC01FA1C8EC005E68A8 /* TransactionCellPresenter.swift */,
+				ACF602841FA15185004972BD /* AccountDetailPresenter.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -469,6 +502,14 @@
 				ACE1D26D1FA11DA6008ED52A /* AccountRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ACF602861FA15220004972BD /* Navigators */ = {
+			isa = PBXGroup;
+			children = (
+				ACF602871FA1522D004972BD /* DetailNavigator.swift */,
+			);
+			path = Navigators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -620,7 +661,6 @@
 			files = (
 				AC48B8C21FA0AE6600AA88DD /* LaunchScreen.storyboard in Resources */,
 				AC48B8BF1FA0AE6600AA88DD /* Assets.xcassets in Resources */,
-				AC48B8BD1FA0AE6600AA88DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,7 +753,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC48B8BA1FA0AE6600AA88DD /* ViewController.swift in Sources */,
 				AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -733,19 +772,26 @@
 				AC21CEE31FA1013A00189EC9 /* Page.swift in Sources */,
 				AC21CEE81FA103F000189EC9 /* AccountDetail.swift in Sources */,
 				AC21CEF21FA10DCA00189EC9 /* UITableView+Reusable.swift in Sources */,
+				AC494DC11FA1C8EC005E68A8 /* TransactionCellPresenter.swift in Sources */,
 				AC4D44BB1FA0FA94001002E3 /* Endpoint.swift in Sources */,
+				AC9B38881FA1E79D008B0715 /* AccountListAssembly.swift in Sources */,
 				ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */,
 				ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */,
+				ACF602881FA1522D004972BD /* DetailNavigator.swift in Sources */,
 				AC21CEF31FA10DCA00189EC9 /* ReusableView.swift in Sources */,
 				ACB9B2B61FA14AAB003FC82C /* CardView.swift in Sources */,
 				AC21CEEA1FA1043200189EC9 /* Transaction.swift in Sources */,
 				AC21CEF01FA10DCA00189EC9 /* NibLoadableView.swift in Sources */,
 				AC4D44B41FA0F565001002E3 /* CurrencyCode.swift in Sources */,
 				ACF602821FA14C47004972BD /* TransactionCell.swift in Sources */,
+				AC494DC31FA1CB3A005E68A8 /* Date+Utilities.swift in Sources */,
 				ACE1D26E1FA11DA6008ED52A /* AccountRepository.swift in Sources */,
 				AC4D44B91FA0FA13001002E3 /* IpagooService.swift in Sources */,
 				ACE1D2691FA116A4008ED52A /* AccountCellPresenter.swift in Sources */,
+				AC9B38851FA1E724008B0715 /* IpagooServiceAssembly.swift in Sources */,
+				ACF602851FA15185004972BD /* AccountDetailPresenter.swift in Sources */,
 				ACE1D26B1FA11C90008ED52A /* AccountListPresenter.swift in Sources */,
+				AC9B388B1FA1E813008B0715 /* DetailAssembly.swift in Sources */,
 				AC4D44B01FA0F333001002E3 /* Account.swift in Sources */,
 				AC21CEFA1FA1118100189EC9 /* AccountCell.swift in Sources */,
 				AC21CEF11FA10DCA00189EC9 /* UICollectionView+Reusable.swift in Sources */,
@@ -790,14 +836,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC48B8BB1FA0AE6600AA88DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC48B8BC1FA0AE6600AA88DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
