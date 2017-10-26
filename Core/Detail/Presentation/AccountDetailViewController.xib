@@ -33,7 +33,7 @@
                 <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="115" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YEd-Iy-jzy">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDk-H2-0aJ">
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDk-H2-0aJ">
                     <rect key="frame" x="166" y="141" width="43.5" height="21"/>
                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
                     <nil key="textColor"/>
