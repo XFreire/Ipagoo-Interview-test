@@ -26,7 +26,7 @@ Develop a banking app, to include presentation of the list of accounts, and the 
 
 **Requirements:**
 
-- The app should be written in Swift 4.0 (iOS) or Java (Android).
+- The app should be written in Swift ~~3.0~~ 4.0 (iOS) or Java (Android).
 - You are free to use any open source libraries or frameworks you choose.
 - You can get inspiration from our app in the stores, or Monzo, Revolut, etc.
 - You have 1 day to complete the test - please return the completed test to sender within 24 hours of reciept We would appreciate clear demonstarble use of unit tests, best practices  in OOP and SOLID, and the UI and UX of the app.
