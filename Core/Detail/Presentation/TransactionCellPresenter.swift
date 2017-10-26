@@ -22,8 +22,8 @@ final class TransactionCellPresenter {
         } else {
             cell.nameLabel.text = transaction.senderDisplayName
         }
-    
         if let date = dateFormatter.date(from: transaction.date) {
+            dateFormatter.dateStyle = .medium
             cell.dateLabel.text = dateFormatter.string(from: date)
         }
         
