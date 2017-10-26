@@ -1,6 +1,8 @@
 # Demo:
+<p align="center">
+  <img src="demo.gif">
+</p>
 
-![demo](demo.gif)
 
 # Instructions
 
