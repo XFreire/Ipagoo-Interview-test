@@ -10,6 +10,7 @@ import RxSwift
 
 protocol AccountRepositoryProtocol {
     func accounts() -> Observable<[Account]>
+    func account(withIdentifier identifier: Int) -> Observable<AccountDetail>
 }
 
 final class AccountRepository: AccountRepositoryProtocol {
@@ -22,5 +23,9 @@ final class AccountRepository: AccountRepositoryProtocol {
     func accounts() -> Observable<[Account]> {
         return ipagooService.load(Page<Account>.self, from: .accounts)
             .map{ $0.items }
+    }
+    
+    func account(withIdentifier identifier: Int) -> Observable<AccountDetail> {
+        return ipagooService.load(AccountDetail.self, from: .account(identifier: identifier))
     }
 }
