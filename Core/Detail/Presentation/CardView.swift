@@ -10,23 +10,14 @@ import UIKit
 
 final class CardView: UIView, NibLoadableView {
     private enum Constants {
-        static let height: CGFloat = 337
+        static let height: CGFloat = 175
     }
-    
     @IBOutlet weak var cityView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var ibanLabel: UILabel!
     @IBOutlet weak var availableBalanceLabel: UILabel!
     @IBOutlet weak var countryLabel: UILabel!
     @IBOutlet weak var metadataLabel: UILabel!
-    
-    init() {
-        super.init(frame: CGRect.zero)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
     
     override var intrinsicContentSize: CGSize {
         return CGSize(width: UIViewNoIntrinsicMetric, height: Constants.height)

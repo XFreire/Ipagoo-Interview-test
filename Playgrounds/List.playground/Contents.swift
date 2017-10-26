@@ -9,7 +9,8 @@ let service = IpagooService()
 let repository = AccountRepository(ipagooService: service)
 let vc = AccountListViewController(presenter: AccountListPresenter(repository: repository), cellPresenter: AccountCellPresenter())
 vc.view.frame = CGRect(x: 0, y: 0, width: 475, height: 667)
-
+print(vc.loadingView)
+print(vc.tableView)
 PlaygroundPage.current.liveView = vc
 
 
