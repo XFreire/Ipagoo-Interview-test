@@ -27,6 +27,7 @@ final class AccountDetailViewController: UIViewController {
 
         }
     }
+    @IBOutlet weak var emptyContentModeLabel: UILabel!
     @IBOutlet weak var loadingView: UIActivityIndicatorView!
     
     // MARK: - Properties
@@ -58,6 +59,18 @@ final class AccountDetailViewController: UIViewController {
 }
 
 extension AccountDetailViewController: AccountDetailView {
+    func disableEmptyContentMode() {
+        tableView.isHidden = false
+        emptyContentModeLabel.isHidden = true
+    }
+    
+    
+    func enableEmptyContentMode() {
+        emptyContentModeLabel.text = NSLocalizedString("There are no recent transactions yet", comment: "")
+        tableView.isHidden = true
+        emptyContentModeLabel.isHidden = false
+    }
+    
     func setLoading(_ loading: Bool) {
         if loading {
             loadingView.startAnimating()
@@ -85,8 +98,6 @@ extension AccountDetailViewController: AccountDetailView {
             }
             .disposed(by: disposeBag)
     }
-    
-    
 }
 
 private extension AccountDetailViewController {
@@ -95,5 +106,3 @@ private extension AccountDetailViewController {
         static let rowHeight: CGFloat = 88
     }
 }
-
-

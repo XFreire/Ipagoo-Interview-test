@@ -13,6 +13,8 @@ protocol AccountDetailView: class {
     func setLoading(_ loading: Bool)
     func update(with account: Account)
     func update(with transactions: [Transaction])
+    func enableEmptyContentMode()
+    func disableEmptyContentMode()
 }
 
 final class AccountDetailPresenter {
@@ -40,6 +42,13 @@ private extension AccountDetailPresenter {
         self.view?.setLoading(true)
         
         repository.account(withIdentifier: account.identifier)
+            .do(onNext: { [weak self] accountDetail in
+                if accountDetail.transactions.isEmpty {
+                    self?.view?.enableEmptyContentMode()
+                } else {
+                    self?.view?.disableEmptyContentMode()
+                }
+            })
             .subscribe(onNext: { [weak self] accountDetail in
                 guard let `self` = self else { return }
                 self.view?.update(with: accountDetail.transactions)

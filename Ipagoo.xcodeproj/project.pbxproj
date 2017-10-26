@@ -20,7 +20,6 @@
 		AC48B8B81FA0AE6600AA88DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8B71FA0AE6600AA88DD /* AppDelegate.swift */; };
 		AC48B8BF1FA0AE6600AA88DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8BE1FA0AE6600AA88DD /* Assets.xcassets */; };
 		AC48B8C21FA0AE6600AA88DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48B8C01FA0AE6600AA88DD /* LaunchScreen.storyboard */; };
-		AC48B8CD1FA0AE6600AA88DD /* IpagooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */; };
 		AC48B8E51FA0B07A00AA88DD /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8DC1FA0B07A00AA88DD /* Core.framework */; };
 		AC48B8EC1FA0B07A00AA88DD /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48B8EB1FA0B07A00AA88DD /* CoreTests.swift */; };
 		AC48B8EE1FA0B07A00AA88DD /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = AC48B8DE1FA0B07A00AA88DD /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,8 +33,6 @@
 		AC48B9041FA0B3D600AA88DD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; };
 		AC48B9071FA0B3D600AA88DD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B9051FA0B3D600AA88DD /* RxTest.framework */; };
 		AC48B9081FA0B3D600AA88DD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B9061FA0B3D600AA88DD /* RxBlocking.framework */; };
-		AC48B9091FA0B3E600AA88DD /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B9061FA0B3D600AA88DD /* RxBlocking.framework */; };
-		AC48B90A1FA0B3E600AA88DD /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B9051FA0B3D600AA88DD /* RxTest.framework */; };
 		AC48B90B1FA0B3F700AA88DD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FB1FA0B38500AA88DD /* Kingfisher.framework */; };
 		AC48B90C1FA0B3F700AA88DD /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */; };
 		AC48B90D1FA0B3F700AA88DD /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; };
@@ -72,6 +69,15 @@
 		AC9B388B1FA1E813008B0715 /* DetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */; };
 		AC9B388D1FA1EC10008B0715 /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388C1FA1EC10008B0715 /* AppAssembly.swift */; };
 		AC9B38901FA1EC58008B0715 /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B388F1FA1EC58008B0715 /* CoreAssembly.swift */; };
+		AC9B38921FA2035F008B0715 /* ListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38911FA2035F008B0715 /* ListPresenterTest.swift */; };
+		AC9B38941FA203B4008B0715 /* DetailNavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38931FA203B4008B0715 /* DetailNavigatorMock.swift */; };
+		AC9B38961FA203BF008B0715 /* AccountRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9B38951FA203BF008B0715 /* AccountRepositoryMock.swift */; };
+		AC9B389A1FA209DD008B0715 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8DC1FA0B07A00AA88DD /* Core.framework */; };
+		AC9B389B1FA20A33008B0715 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC9B389C1FA20A3A008B0715 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC9B389D1FA20AFB008B0715 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FD1FA0B38500AA88DD /* RxCocoa.framework */; };
+		AC9B389E1FA20AFB008B0715 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC48B8FC1FA0B38500AA88DD /* RxSwift.framework */; };
+		AC9B389F1FA20B14008B0715 /* Core.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AC48B8DC1FA0B07A00AA88DD /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACB8D55A1FA0B61A008D2454 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB8D5591FA0B61A008D2454 /* Core.swift */; };
 		ACB9B2B41FA14AAB003FC82C /* CardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */; };
 		ACB9B2B51FA14AAB003FC82C /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB9B2B21FA14AAB003FC82C /* CardView.xib */; };
@@ -132,6 +138,18 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC9B38991FA2096C008B0715 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC9B389F1FA20B14008B0715 /* Core.framework in CopyFiles */,
+				AC9B389C1FA20A3A008B0715 /* RxCocoa.framework in CopyFiles */,
+				AC9B389B1FA20A33008B0715 /* RxSwift.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -151,7 +169,6 @@
 		AC48B8C11FA0AE6600AA88DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC48B8C31FA0AE6600AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC48B8C81FA0AE6600AA88DD /* IpagooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IpagooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpagooTests.swift; sourceTree = "<group>"; };
 		AC48B8CE1FA0AE6600AA88DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC48B8DC1FA0B07A00AA88DD /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48B8DE1FA0B07A00AA88DD /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
@@ -198,6 +215,9 @@
 		AC9B388A1FA1E813008B0715 /* DetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAssembly.swift; sourceTree = "<group>"; };
 		AC9B388C1FA1EC10008B0715 /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		AC9B388F1FA1EC58008B0715 /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
+		AC9B38911FA2035F008B0715 /* ListPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterTest.swift; sourceTree = "<group>"; };
+		AC9B38931FA203B4008B0715 /* DetailNavigatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigatorMock.swift; sourceTree = "<group>"; };
+		AC9B38951FA203BF008B0715 /* AccountRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepositoryMock.swift; sourceTree = "<group>"; };
 		ACB8D5591FA0B61A008D2454 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		ACB8D55B1FA0B647008D2454 /* IpagooService.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IpagooService.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		ACB9B2B11FA14AAB003FC82C /* CardPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPresenter.swift; sourceTree = "<group>"; };
@@ -233,8 +253,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC48B9091FA0B3E600AA88DD /* RxBlocking.framework in Frameworks */,
-				AC48B90A1FA0B3E600AA88DD /* RxTest.framework in Frameworks */,
+				AC9B389D1FA20AFB008B0715 /* RxCocoa.framework in Frameworks */,
+				AC9B389E1FA20AFB008B0715 /* RxSwift.framework in Frameworks */,
+				AC9B389A1FA209DD008B0715 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,8 +378,10 @@
 		AC48B8CB1FA0AE6600AA88DD /* IpagooTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC48B8CC1FA0AE6600AA88DD /* IpagooTests.swift */,
 				AC48B8CE1FA0AE6600AA88DD /* Info.plist */,
+				AC9B38911FA2035F008B0715 /* ListPresenterTest.swift */,
+				AC9B38931FA203B4008B0715 /* DetailNavigatorMock.swift */,
+				AC9B38951FA203BF008B0715 /* AccountRepositoryMock.swift */,
 			);
 			path = IpagooTests;
 			sourceTree = "<group>";
@@ -567,6 +590,7 @@
 				AC48B8C41FA0AE6600AA88DD /* Sources */,
 				AC48B8C51FA0AE6600AA88DD /* Frameworks */,
 				AC48B8C61FA0AE6600AA88DD /* Resources */,
+				AC9B38991FA2096C008B0715 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -632,6 +656,7 @@
 					};
 					AC48B8C71FA0AE6600AA88DD = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC48B8B31FA0AE6600AA88DD;
 					};
@@ -776,7 +801,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC48B8CD1FA0AE6600AA88DD /* IpagooTests.swift in Sources */,
+				AC9B38961FA203BF008B0715 /* AccountRepositoryMock.swift in Sources */,
+				AC9B38941FA203B4008B0715 /* DetailNavigatorMock.swift in Sources */,
+				AC9B38921FA2035F008B0715 /* ListPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,6 +1042,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1025,6 +1053,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexandrefreire.IpagooTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ipagoo.app/Ipagoo";
@@ -1036,6 +1065,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8LNA9LB2Y8;
 				FRAMEWORK_SEARCH_PATHS = (

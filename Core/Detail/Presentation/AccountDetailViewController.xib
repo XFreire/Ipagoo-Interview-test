@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountDetailViewController" customModule="Core" customModuleProvider="target">
             <connections>
+                <outlet property="emptyContentModeLabel" destination="EDk-H2-0aJ" id="aGK-mQ-MeA"/>
                 <outlet property="loadingView" destination="lfq-Xx-Pmc" id="q3R-Xw-Jqy"/>
                 <outlet property="stackView" destination="YEd-Iy-jzy" id="it0-Xz-MB8"/>
                 <outlet property="tableView" destination="8ux-Kj-U5w" id="RyN-6G-FIA"/>
@@ -32,13 +33,23 @@
                 <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="115" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YEd-Iy-jzy">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="115"/>
                 </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDk-H2-0aJ">
+                    <rect key="frame" x="166" y="141" width="43.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="lfq-Xx-Pmc" firstAttribute="centerX" secondItem="8ux-Kj-U5w" secondAttribute="centerX" id="13r-iM-u02"/>
+                <constraint firstItem="EDk-H2-0aJ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="36" id="1To-99-sKy"/>
+                <constraint firstItem="EDk-H2-0aJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1f1-mP-t2v"/>
+                <constraint firstItem="EDk-H2-0aJ" firstAttribute="top" secondItem="YEd-Iy-jzy" secondAttribute="bottom" constant="26" id="89E-WI-Ld9"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8ux-Kj-U5w" secondAttribute="trailing" id="Jru-Ca-Jiq"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YEd-Iy-jzy" secondAttribute="trailing" id="KrV-0m-YPf"/>
                 <constraint firstItem="YEd-Iy-jzy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="S66-uM-kRp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="EDk-H2-0aJ" secondAttribute="trailing" constant="36" id="VR8-nE-7hY"/>
                 <constraint firstItem="8ux-Kj-U5w" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="WTJ-M8-7f2"/>
                 <constraint firstItem="lfq-Xx-Pmc" firstAttribute="centerY" secondItem="8ux-Kj-U5w" secondAttribute="centerY" id="j6e-ym-U0T"/>
                 <constraint firstItem="8ux-Kj-U5w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="sv5-Sw-3sE"/>
