@@ -17,5 +17,11 @@ final class AccountCellPresenter {
         cell.availableBalanceLabel.text = String(format: "%.2f %@", account.availableBalance, account.currencyCode.rawValue).uppercased()
         cell.metadataLabel.text = NSLocalizedString("Available balance", comment: "").uppercased()
         cell.countryLabel.text = account.countryCode.rawValue
+        let views: [UIView] = [cell.nameLabel, cell.cityView, cell.ibanLabel, cell.availableBalanceLabel, cell.metadataLabel, cell.countryLabel]
+        if account.status == .active {
+            views.forEach{ $0.alpha = 1 }
+        } else {
+            views.forEach{ $0.alpha = 0.3 }
+        }
     }
 }

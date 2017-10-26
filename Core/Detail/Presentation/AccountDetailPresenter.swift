@@ -70,8 +70,8 @@ private extension AccountDetailPresenter {
             .disposed(by: disposeBag)
     }
     
-    private func transactions(_ transactions: [Transaction], of type: TransactionDisplayOption) -> [Transaction] {
-        switch type {
+    private func transactions(_ transactions: [Transaction], of option: TransactionDisplayOption) -> [Transaction] {
+        switch option {
         case .all: return transactions
         case .debits:
             return transactions.filter{ $0.amount < 0}

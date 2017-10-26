@@ -157,7 +157,7 @@
 		"CurrencyCode": "EUR",
 		"CurrentBalance": 0.0000,
 		"AvailableBalance": 0.0000,
-		"Status": "Active",
+		"Status": "Inactive",
 		"HasCard": false
 	}, {
 		"Id": 31,
@@ -167,7 +167,7 @@
 		"CurrencyCode": "EUR",
 		"CurrentBalance": 0.0000,
 		"AvailableBalance": 0.0000,
-		"Status": "Active",
+		"Status": "Inactive",
 		"HasCard": false
 	}, {
 		"Id": 33,

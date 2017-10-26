@@ -17,5 +17,12 @@ final class CardPresenter {
         card.availableBalanceLabel.text = String(format: "%.2f %@", account.availableBalance, account.currencyCode.rawValue).uppercased()
         card.metadataLabel.text = NSLocalizedString("Available balance", comment: "").uppercased()
         card.countryLabel.text = account.countryCode.rawValue
+        
+        let views: [UIView] = [card.nameLabel, card.cityView, card.ibanLabel, card.availableBalanceLabel, card.metadataLabel, card.countryLabel]
+        if account.status == .active {
+            views.forEach{ $0.alpha = 1 }
+        } else {
+            views.forEach{ $0.alpha = 0.3 }
+        }
     }
 }
