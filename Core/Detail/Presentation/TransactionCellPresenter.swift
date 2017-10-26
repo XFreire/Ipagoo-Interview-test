@@ -10,21 +10,24 @@ import Foundation
 
 final class TransactionCellPresenter {
     
-    let dateFormatter: DateFormatter
+    private let dateFormatter: DateFormatter
+    private let outputDateFormatter = DateFormatter()
     
     init(dateFormatter: DateFormatter) {
         self.dateFormatter = dateFormatter
+        outputDateFormatter.dateStyle = .medium
     }
     
     func present(transaction: Transaction, in cell: TransactionCell) {
         if transaction.amount > 0 {
-            cell.nameLabel.text = transaction.receiverDisplayName
+            cell.nameLabel.text = transaction.receiverDisplayName.uppercased()
         } else {
-            cell.nameLabel.text = transaction.senderDisplayName
+            cell.nameLabel.text = transaction.senderDisplayName.uppercased()
         }
         if let date = dateFormatter.date(from: transaction.date) {
-            dateFormatter.dateStyle = .medium
-            cell.dateLabel.text = dateFormatter.string(from: date)
+            cell.dateLabel.text = outputDateFormatter.string(from: date)
+        } else {
+            cell.dateLabel.isHidden = true
         }
         
         cell.amountLabel.text = String(format: "%.2f %@", transaction.amount, transaction.currencyCode.rawValue).uppercased()
