@@ -44,6 +44,16 @@ final class AccountListViewController: UIViewController {
         super.viewDidLoad()
         presenter.view = self
         presenter.didLoad()
+        setupBindings()
+    }
+    
+    private func setupBindings() {
+        tableView.rx.modelSelected(Account.self)
+            .subscribe(onNext: { [weak self] account in
+            guard let `self` = self else { return }
+            self.presenter.didSelect(account: account)
+        })
+        .disposed(by: disposeBag)
     }
 }
 

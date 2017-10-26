@@ -22,7 +22,7 @@ final public class ListAccountAssembly {
     }
     
     func presenter() -> AccountListPresenter {
-        return AccountListPresenter(repository: accountRepository())
+        return AccountListPresenter(repository: accountRepository(), detailNavigator: detailAssembly.detailNavigator())
     }
     
     func cellPresenter() -> AccountCellPresenter {

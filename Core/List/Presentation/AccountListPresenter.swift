@@ -19,10 +19,13 @@ final class AccountListPresenter {
     // MARK: - Properties
     weak var view: AccountListView?
     private let repository: AccountRepositoryProtocol
+    private let detailNavigator: DetailNavigator
+
     private let disposeBag = DisposeBag()
     
-    init(repository: AccountRepositoryProtocol) {
+    init(repository: AccountRepositoryProtocol, detailNavigator: DetailNavigator) {
         self.repository = repository
+        self.detailNavigator = detailNavigator
     }
     
     func didLoad() {
@@ -31,7 +34,7 @@ final class AccountListPresenter {
     }
     
     func didSelect(account: Account) {
-        // TODO: implement
+        detailNavigator.showDetail(of: account)
     }
 }
 
