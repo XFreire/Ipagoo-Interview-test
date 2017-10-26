@@ -17,4 +17,5 @@ enum TransactionStatus: String, Decodable {
     case authorised = "Authorised"
     case completed = "Completed"
     case failed = "Failed"
+    case pending = "Pending"
 }

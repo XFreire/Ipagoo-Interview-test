@@ -21,7 +21,10 @@ final internal class IpagooService {
         
         return data(for: endpoint.path)
             .map{ try decoder.decode(T.self, from: $0)}
-            
+            .catchError{ error in
+                print("error: \(error)")
+                throw error
+            }
     }
 }
 
